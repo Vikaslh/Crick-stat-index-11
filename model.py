@@ -70,8 +70,8 @@ def kmeansCluster(data, features):
         plt.title('Elbow Method For Optimal k')
         plt.show()
 
-    elbow_plot(1, 10, 20)
-    plot_cluster()
+    # elbow_plot(1, 10, 20)
+    # plot_cluster()
     return data
 
 

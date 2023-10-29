@@ -32,4 +32,5 @@ data = model.kmeansCluster(scaled[0], scaled[1])
 
 # finding the best cluster
 
-best = model.find_best_cluster(data, 3)
+best_batsmen = model.find_best_cluster(data, 3)
+print(best_batsmen)

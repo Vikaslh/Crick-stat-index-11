@@ -27,4 +27,5 @@ data = model.kmeansCluster(scaled[0], scaled[1])
 # print(len(grp0), len(grp1), len(grp2))
 
 # finding the best cluster
-best = model.find_best_cluster(data, 3)
+best_bowler = model.find_best_cluster(data, 3)
+print(best_bowler)
